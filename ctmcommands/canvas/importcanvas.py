@@ -25,7 +25,7 @@ class ImportCanvas(ctmcommands.cmd.CSKCommand):
                      doc='Directory where the Canvas files exist.  Current directory if omitted.'),
                Param(name='repository', short_name='r', long_name='repository',
                      optional=True, ptype='string',
-                     doc=""""Specify either "file" or "db" repository. "db" if omitted.
+                     doc="""Specify either "file" or "db" repository. "db" if omitted.
                          Only Administrators are allowed to use the "file" option."""),
                Param(name='ignoreconflicts', long_name='ignoreconflicts',
                      optional=True, ptype='boolean',
