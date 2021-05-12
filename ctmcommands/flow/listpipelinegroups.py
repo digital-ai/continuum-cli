@@ -30,7 +30,7 @@ _List all Pipeline Instance Groups
                      optional=True, ptype='string',
                      doc='Limit the results to a specific group.'),
                Param(name='limit', short_name='l', long_name='limit',
-                     optional=True, ptype='string',
+                     optional=True, ptype='integer',
                      doc=('The maximum number of items to retrieve, or '
                           '0 for unlimited. (Default is unlimited.)'))]
 

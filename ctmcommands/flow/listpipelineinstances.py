@@ -34,7 +34,8 @@ _List all Pipeline Instances
                      doc='Limit the results to Instances after the provided timestamp.'),
                Param(name='limit', short_name='l', long_name='limit',
                      optional=True, ptype='integer',
-                     doc='Limit the number of results.  (0 for all results, 100 if omitted.')]
+                     doc=('The maximum number of items to retrieve, or '
+                          '0 for unlimited. (Default is 100.)'))]
 
     def main(self):
         results = self.call_api(self.API, ['definition', 'project', 'group', 'since', 'limit'])
